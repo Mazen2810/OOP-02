@@ -1,4 +1,5 @@
 ﻿using Demo.Encapsulation;
+using Demo.Inheritance;
 
 namespace Demo
 {
@@ -48,6 +49,23 @@ namespace Demo
             //C1 = new Car(3333, "KIA");
 
             //Console.WriteLine(C1);
+            #endregion
+
+            #region OOP Pillars 2. Inheritance [is a relationship]
+
+            //Parent parent = new Parent(1, 2);
+            //parent.X = 11;
+            //parent.Y = 22;
+            //Console.WriteLine(parent);
+            //Console.WriteLine($" Product = {parent.product()}");
+
+
+            //Child c = new Child(1, 2, 3);
+            //c.X = 11;
+            //c.Y = 22;
+            //c.Z = 33;
+
+            //Console.WriteLine(c.ToString());
             #endregion
         }
     }
