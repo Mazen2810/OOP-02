@@ -102,7 +102,19 @@
             //Console.WriteLine(emp01);
             #endregion
 
+            #region Q3: Create an array of Employees with size three a DBA, Guest and the third one is security officer who have full permissions. (Employee [] EmpArr;)
 
+            //Employee[] EmpArr = new Employee[3];
+            //EmpArr[0] = new Employee(100,"Mazen",SecurityLevel.DBA , 10_000,new DateTime(2024,11,28),Gender.M);
+            //EmpArr[1] = new Employee(200,"Mohamed",SecurityLevel.guest , 14_000,new DateTime(2023,01,28),Gender.M);
+            //EmpArr[2] = new Employee(300,"Marwa",SecurityLevel.securityOfficer , 18_000,new DateTime(2024,5,24),Gender.F);
+
+
+            //foreach (Employee emp in EmpArr)
+            //{
+            //    Console.WriteLine(emp);
+            //}
+            #endregion
             #endregion
         }
     }

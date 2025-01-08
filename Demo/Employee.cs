@@ -9,11 +9,11 @@ namespace Demo
 {
     enum Gender
     {
-        M,G
+        M,F
     }
     enum SecurityLevel
     {
-        guest, Developer, secretary , DBA   
+        guest, Developer, secretary , DBA   , securityOfficer
     }
      class Employee
     {
@@ -26,7 +26,7 @@ namespace Demo
 
 
 
-        public Employee(int Id, string Name, SecurityLevel SecurityLevel, double Salary, DateTime HiringDate,Gender Gender)
+        public Employee(int Id, string Name, SecurityLevel SecurityLevel, double Salary, DateTime HiringDate, Gender Gender)
         {
             this.Id = Id;
             this.Name = Name;
