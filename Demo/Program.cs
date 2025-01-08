@@ -92,6 +92,18 @@
 
             #endregion
 
+
+            #region Part 02
+
+            #region Q1: Design and implement a Class for the employees in a company
+            //Employee emp01 = new Employee(100,"Mazen", SecurityLevel.Developer, 10_000,new DateTime(2025,01,01),Gender.M);
+
+
+            //Console.WriteLine(emp01);
+            #endregion
+
+
+            #endregion
         }
     }
 }
